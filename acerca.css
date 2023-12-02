@@ -1,0 +1,22 @@
+.acerca-contenedor{
+    padding: 3em 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+}
+
+section{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+}
+
+section>ul>li{
+    text-decoration: none;
+    list-style: none;
+}

@@ -1,0 +1,44 @@
+.inicio-contenedor{
+    width: 100%;
+    padding-top: 3em;
+    gap: 1em;
+
+}
+
+.inicio-titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inicio-titulo>h2{
+    width: 80%;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.inicio-titulo>ul{
+    padding: 2em 0;
+    list-style: none;
+    
+}
+
+.inicio-titulo>ul>li{
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.inicio-titulo>ul>li>a{
+    text-decoration: none;
+}
+
+.inicio-titulo>ul>li>img{
+    position: relative;
+    width: 140px;
+    height: 20vmin;
+    object-fit: cover;
+}
